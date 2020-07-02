@@ -144,6 +144,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
 .teammate-profession {
@@ -152,6 +153,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
 .social-link:hover,
