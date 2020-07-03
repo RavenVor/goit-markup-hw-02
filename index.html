@@ -8,38 +8,43 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- шапка-сайту -->
-    <header>
-      <nav>
-        <a href="./index.html" lang="en" class="logo">
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="logo link" href="./index.html" lang="en">
           <span class="logo-word">Web</span>
           Studio
         </a>
-        <ul class="nav-list">
-          <li>
-            <a href="./index.html" class="nav-link">Студия</a>
+        <ul class="navigation-list list">
+          <li class="navigation-list-item">
+            <a class="navigation-link link" href="./index.html">Студия</a>
           </li>
-          <li>
-            <a href="./portfolio.html" class="nav-link">Портфолио</a>
+          <li class="navigation-list-item">
+            <a class="navigation-link link" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
-          <li>
-            <a href="" class="nav-link">Контакты</a>
+          <li class="navigation-list-item">
+            <a class="navigation-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
 
-      <address>
-        <ul class="contacts-list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="contacts-link"
+      <address class="contacts address">
+        <ul class="contacts-list list">
+          <li class="contacts-list-item">
+            <a
+              class="contacts-list-item-link link"
+              href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a href="tel:+380961111111" class="contacts-link"
+          <li class="contacts-list-item list">
+            <a class="contacts-list-item-link link" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
           </li>
@@ -58,31 +63,31 @@
         <button class="hero-btn">Заказать услугу</button>
       </section>
       <!-- особливості -->
-      <section>
+      <section class="features">
         <h2 hidden>Наши особенности</h2>
-        <ul class="features-list">
-          <li>
+        <ul class="features-list list">
+          <li class="features-list-item">
             <h3 class="features-title">Внимание к деталям</h3>
             <p class="features-desc">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="features-list-item">
             <h3 class="features-title">Пунктуальность</h3>
             <p class="features-desc">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="features-list-item">
             <h3 class="features-title">Планирование</h3>
             <p class="features-desc">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="features-list-item">
             <h3 class="features-title">Современные технологии</h3>
             <p class="features-desc">
               Значимость этих проблем настолько очевидна, что реализация
@@ -93,35 +98,35 @@
       </section>
 
       <!-- Чим займаємся -->
-      <section>
+      <section class="occupation">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul>
-          <li>
+        <ul class="occupation-list list">
+          <li class="occupation-list-item">
             <img
               src="./img/features/features-1.jpg"
               alt="человек роботает за нотбуком"
               width="370"
               height="294"
             />
-            <p class="section-text">Десктопные приложения</p>
+            <p class="occupation-list-item-desc">Десктопные приложения</p>
           </li>
-          <li>
+          <li class="occupation-list-item">
             <img
               src="./img/features/features-2.jpg"
               alt="изображение смартфона"
               width="370"
               height="294"
             />
-            <p class="section-text">Мобильные приложения</p>
+            <p class="occupation-list-item-desc">Мобильные приложения</p>
           </li>
-          <li>
+          <li class="occupation-list-item">
             <img
               src="./img/features/features-3.jpg"
               alt="монытор компю'тера"
               width="370"
               height="294"
             />
-            <p class="section-text">Дизайнерские решения</p>
+            <p class="occupation-list-item-desc">Дизайнерские решения</p>
           </li>
         </ul>
       </section>
@@ -320,10 +325,9 @@
     <!-- Підвал -->
     <footer class="footer">
       <div>
-        <a class="logo" href="./index.html" lang="en">
-          <span class="logo-word">Web</span>
-          <span class="logo-word-second">Studio</span>
-        </a>
+        <a class="logo link" href="./index.html" lang="en">
+          <span class="logo-word">Web</span> Studio</a
+        >
         <address>
           <ul>
             <li>
