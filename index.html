@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Веб Студыя</title>
+    <title>Веб Студия</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -14,284 +14,322 @@
   <body>
     <!-- шапка-сайту -->
     <header class="header">
-      <nav class="header-navigation">
-        <a class="logo link" href="./index.html" lang="en">
-          <span class="logo-word">Web</span>
-          Studio
-        </a>
-        <ul class="navigation-list list">
-          <li class="navigation-list-item">
-            <a class="navigation-link link" href="./index.html">Студия</a>
-          </li>
-          <li class="navigation-list-item">
-            <a class="navigation-link link" href="./portfolio.html"
-              >Портфолио</a
-            >
-          </li>
-          <li class="navigation-list-item">
-            <a class="navigation-link link" href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="header-navigation">
+          <a class="logo link" href="./index.html" lang="en">
+            <span class="logo-word">Web</span>
+            Studio
+          </a>
+          <ul class="navigation-list list">
+            <li class="navigation-list-item">
+              <a class="navigation-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-link link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
 
-      <address class="contacts address">
-        <ul class="contacts-list list">
-          <li class="contacts-list-item">
-            <a
-              class="contacts-list-item-link link"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contacts-list-item list">
-            <a class="contacts-list-item-link link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <address class="contacts address">
+          <ul class="contacts-list list">
+            <li class="contacts-list-item">
+              <a
+                class="contacts-list-item-link link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-list-item list">
+              <a class="contacts-list-item-link link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <!-- Герой -->
     <main>
       <!-- секція-герой -->
-      <section class="hero">
+      <section class="hero section">
         <h1 class="hero-title">
           Эффективные решения<br />
           для вашего бизнеса
         </h1>
-        <button class="hero-btn">Заказать услугу</button>
+        <button class="hero-btn btn">Заказать услугу</button>
       </section>
       <!-- особливості -->
-      <section class="features">
-        <h2 hidden>Наши особенности</h2>
-        <ul class="features-list list">
-          <li class="features-list-item">
-            <h3 class="features-title">Внимание к деталям</h3>
-            <p class="features-desc">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li class="features-list-item">
-            <h3 class="features-title">Пунктуальность</h3>
-            <p class="features-desc">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li class="features-list-item">
-            <h3 class="features-title">Планирование</h3>
-            <p class="features-desc">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li class="features-list-item">
-            <h3 class="features-title">Современные технологии</h3>
-            <p class="features-desc">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+      <section class="features section">
+        <div class="container">
+          <h2 hidden>Наши особенности</h2>
+          <ul class="features-list list">
+            <li class="features-list-item">
+              <h3 class="features-title">Внимание к деталям</h3>
+              <p class="features-desc desc">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="features-list-item">
+              <h3 class="features-title">Пунктуальность</h3>
+              <p class="features-desc desc">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="features-list-item">
+              <h3 class="features-title">Планирование</h3>
+              <p class="features-desc desc">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="features-list-item">
+              <h3 class="features-title">Современные технологии</h3>
+              <p class="features-desc desc">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Чим займаємся -->
-      <section class="occupation">
-        <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="occupation-list list">
-          <li class="occupation-list-item">
-            <img
-              src="./img/features/features-1.jpg"
-              alt="человек роботает за нотбуком"
-              width="370"
-              height="294"
-            />
-            <p class="occupation-list-item-desc">Десктопные приложения</p>
-          </li>
-          <li class="occupation-list-item">
-            <img
-              src="./img/features/features-2.jpg"
-              alt="изображение смартфона"
-              width="370"
-              height="294"
-            />
-            <p class="occupation-list-item-desc">Мобильные приложения</p>
-          </li>
-          <li class="occupation-list-item">
-            <img
-              src="./img/features/features-3.jpg"
-              alt="монытор компю'тера"
-              width="370"
-              height="294"
-            />
-            <p class="occupation-list-item-desc">Дизайнерские решения</p>
-          </li>
-        </ul>
+      <section class="occupation section">
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="occupation-list list">
+            <li class="occupation-list-item">
+              <img
+                src="./img/features/features-1.jpg"
+                alt="человек роботает за нотбуком"
+                width="370"
+                height="294"
+              />
+              <p class="occupation-list-item-desc desc">
+                Десктопные приложения
+              </p>
+            </li>
+            <li class="occupation-list-item">
+              <img
+                src="./img/features/features-2.jpg"
+                alt="изображение смартфона"
+                width="370"
+                height="294"
+              />
+              <p class="occupation-list-item-desc desc">Мобильные приложения</p>
+            </li>
+            <li class="occupation-list-item">
+              <img
+                src="./img/features/features-3.jpg"
+                alt="монытор компю'тера"
+                width="370"
+                height="294"
+              />
+              <p class="occupation-list-item-desc desc">Дизайнерские решения</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Команда -->
-      <section class="our-team">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="our-team-list list">
-          <li class="our-team-list-item">
-            <img
-              src="./img/team/teamate-1.jpg"
-              alt="Участник 1"
-              width="270"
-              height="260"
-            />
-            <h3 class="teammate-name">Николай Кучеренко</h3>
-            <p class="teammate-profession" lang="en">Product Designer</p>
-            <ul class="social-links-list list">
-              <li class="social-links-list-item">
-                <a
-                  class="social-link link"
-                  href=""
-                  aria-label="иконка инстаграма"
-                  >Instagram</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a class="social-link link" href="" aria-label="иконка твиттера"
-                  >Twitter</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a class="social-link link" href="" aria-label="иконка фейсбука"
-                  >Facebook</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a
-                  class="social-link link"
-                  href=""
-                  aria-label="иконка линкедина"
-                  >Linkedin</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="our-team-list-item">
-            <img
-              src="./img/team/teamate-2.jpg"
-              alt="Участник 2"
-              width="270"
-              height="260"
-            />
-            <h3 class="teammate-name">Ольга Иванова</h3>
-            <p class="teammate-profession" lang="en">Frontend Developer</p>
-            <ul class="social-links-list list">
-              <li class="social-links-list-item">
-                <a
-                  class="social-link link"
-                  href=""
-                  aria-label="иконка инстаграма"
-                  >Instagram</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a class="social-link link" href="" aria-label="иконка твиттера"
-                  >Twitter</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a class="social-link link" href="" aria-label="иконка фейсбука"
-                  >Facebook</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a
-                  class="social-link link"
-                  href=""
-                  aria-label="иконка линкедина"
-                  >Linkedin</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="our-team-list-item">
-            <img
-              src="./img/team/teamate-3.jpg"
-              alt="Участник 3"
-              width="270"
-              height="260"
-            />
-            <h3 class="teammate-name">Андрей Шевченко</h3>
-            <p class="teammate-profession" lang="en">Marketing</p>
-            <ul class="social-links-list list">
-              <li class="social-links-list-item">
-                <a
-                  class="social-link link"
-                  href=""
-                  aria-label="иконка инстаграма"
-                  >Instagram</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a class="social-link link" href="" aria-label="иконка твиттера"
-                  >Twitter</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a class="social-link link" href="" aria-label="иконка фейсбука"
-                  >Facebook</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a
-                  class="social-link link"
-                  href=""
-                  aria-label="иконка линкедина"
-                  >Linkedin</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="our-team-list-item">
-            <img
-              src="./img/team/teamate-4.jpg"
-              alt="Участник 4"
-              width="270"
-              height="260"
-            />
-            <h3 class="teammate-name">Иван Николаев</h3>
-            <p class="teammate-profession" lang="en">UI Designer</p>
-            <ul class="social-links-list list">
-              <li class="social-links-list-item">
-                <a
-                  class="social-link link"
-                  href=""
-                  aria-label="иконка инстаграма"
-                  >Instagram</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a class="social-link link" href="" aria-label="иконка твиттера"
-                  >Twitter</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a class="social-link link" href="" aria-label="иконка фейсбука"
-                  >Facebook</a
-                >
-              </li>
-              <li class="social-links-list-item">
-                <a
-                  class="social-link link"
-                  href=""
-                  aria-label="иконка линкедина"
-                  >Linkedin</a
-                >
-              </li>
-            </ul>
-          </li>
-        </ul>
+      <section class="our-team section">
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="our-team-list list">
+            <li class="our-team-list-item">
+              <img
+                class="avatar"
+                src="./img/team/teamate-1.jpg"
+                alt="Участник 1"
+                width="270"
+                height="260"
+              />
+              <h3 class="teammate-name">Николай Кучеренко</h3>
+              <p class="teammate-profession" lang="en">Product Designer</p>
+              <ul class="social-links-list list">
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка инстаграма"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка твиттера"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка фейсбука"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка линкедина"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="our-team-list-item">
+              <img
+                class="avatar"
+                src="./img/team/teamate-2.jpg"
+                alt="Участник 2"
+                width="270"
+                height="260"
+              />
+              <h3 class="teammate-name">Ольга Иванова</h3>
+              <p class="teammate-profession" lang="en">Frontend Developer</p>
+              <ul class="social-links-list list">
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка инстаграма"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка твиттера"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка фейсбука"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка линкедина"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="our-team-list-item">
+              <img
+                class="avatar"
+                src="./img/team/teamate-3.jpg"
+                alt="Участник 3"
+                width="270"
+                height="260"
+              />
+              <h3 class="teammate-name">Андрей Шевченко</h3>
+              <p class="teammate-profession" lang="en">Marketing</p>
+              <ul class="social-links-list list">
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка инстаграма"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка твиттера"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка фейсбука"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка линкедина"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="our-team-list-item">
+              <img
+                class="avatar"
+                src="./img/team/teamate-4.jpg"
+                alt="Участник 4"
+                width="270"
+                height="260"
+              />
+              <h3 class="teammate-name">Иван Николаев</h3>
+              <p class="teammate-profession" lang="en">UI Designer</p>
+              <ul class="social-links-list list">
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка инстаграма"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка твиттера"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка фейсбука"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="social-links-list-item">
+                  <a
+                    class="social-link link"
+                    href=""
+                    aria-label="иконка линкедина"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Постійні клієнти -->
-      <section class="clients">
+      <section class="clients section">
         <h2 class="section-title">Постоянные клиенты</h2>
         <ul class="clients-list list">
           <li class="clients-list-item">
